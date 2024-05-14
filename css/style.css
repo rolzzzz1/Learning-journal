@@ -1,0 +1,64 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logoImg {
+    width: 23px;
+    height: 23px;
+}
+
+.logoText {
+    display: inline;
+    font-size: 13.5px;
+    padding: 0 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+}
+
+.headerBtnDiv {
+    display: flex;
+    align-items: center;
+}
+
+.headerBtn {
+    background: none;
+    border: none;
+    font-size: 12px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+}
+
+.headerBtn:active,
+.headerBtn:focus {
+    outline: none;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    /* background-color: aquamarine; */
+}
+
+@media(min-width: 480px) {
+    .headerBtn {
+        font-size: 16px;
+    }
+    
+    .logoImg {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .logoText {
+        font-size: 20px;
+    }
+}
