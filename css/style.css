@@ -89,6 +89,7 @@ body {
 .heroPostDiv {
   /* height: 290px; */
   /* width: 100%; */
+  display: block;
   background: url("./images/article-image-hero.jpg");
   background-size: cover;
   color: #ffffff;
